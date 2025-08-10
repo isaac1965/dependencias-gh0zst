@@ -13,7 +13,8 @@ SigLevel = Optional TrustAll
 Server = http://gh0stzk.github.io/pkgs/x86_64
 ```
 /etc/X11/xorg.conf.d/40-libinput.conf
-``sh
+
+```sh
 Section "InputClass"
   Identifier "touchpad"
   Driver "libinput"
